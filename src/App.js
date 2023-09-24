@@ -7,6 +7,7 @@ import Create from './componment/Create';
 import Reade from './componment/Reade';
 import Update from './componment/Update';
 
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,15 @@ function App() {
  <Reade/>
 <Update/>
 <Create/> 
+
+<BrowserRouter>
+      <Routes>
+        {/* <Route path="/" element={<Reade/>}> */}
+        <Route path="/cc" element={<Create/>}>
+        
+        </Route>
+      </Routes>
+    </BrowserRouter>
 
 
 

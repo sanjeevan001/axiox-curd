@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 function create() {
   return (
-    <div>create</div>
+    <div>sanjee</div>
   )
 }
 

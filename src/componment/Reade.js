@@ -1,26 +1,18 @@
 import axios from 'axios';
 import React, { useState } from 'react'
-
 import { API_URL } from '../constans/Url'
 
 function Reade() {
-
     const[fistname,setfistname]=useState('');
     const[pwd,setpwd]=useState('');
-
-
+    
+// button function console loog pakalam
 const postdata = async() =>{
-
     // console.log(fistname);
     // console.log(pwd);
-
     await axios.post(API_URL,{
         fistname,pwd
     })
-
-
-
-
 }
 
 
